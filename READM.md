@@ -3,12 +3,13 @@
 #include<conio.h>
 #include<math.h>
 #include<stdlib.h>
+#include<string.h>
  
 #define KEY "Enter the calculator Operation you want to do:"
  
 // Function prototype declaration
-void addition();
-void subtraction();
+void add();
+void subtract();
 void multiplication();
 void division();
 void modulus();
@@ -34,10 +35,10 @@ int main()
  
         switch(Calc_oprn)
         {
-            case '+': addition();
+            case '+': add();
                       break;
  
-            case '-': subtraction();
+            case '-': subtract();
                       break;
  
             case '*': multiplication();
